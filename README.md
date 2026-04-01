@@ -34,13 +34,12 @@ This project reads a CSV file containing people’s names and test scores, deter
 
 - REST API Implementation:  
   - Built using Python’s built-in `http.server` and `sqlite3`.  
-  - Minimalistic and human-readable, easy to maintain.  
-  - Optional root endpoint `/` returns a simple “API is running” message.  
+   
 
 - Assumptions:  
   - CSV is UTF-8 encoded with a header row.  
   - Scores are integers; invalid scores are skipped.  
-  - API assumes a local, trusted environment (no authentication).  
+  - API assumes a local, trusted environment   
 
 ---
 
@@ -66,7 +65,7 @@ venv\Scripts\activate      # since I used Windows this is the command for it
 
 ## Run Top Scorers Script
 ##Step 1
-`python top_scorers.py` #use this command in the CLI of your choice , I used CMD
+`python top_scorers.py` #use this command in the CLI e.g bash of your choice , I used CMD
  #YOU SHOULD SEE :
 Top Scorers:
 George, Of The Jungle
